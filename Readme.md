@@ -9,7 +9,7 @@ The experiments is run in R 4.0.3. It requires R packages "grf", "gbm", "bartMac
 
 ### Training:
 1. Toy example is implemented in the file "Figure1". 
-    DirectM.R:                the function for direct method, we can choose true/false model, deterministic/random policy
+    `DirectM.R`:                the function for direct method, we can choose true/false model, deterministic/random policy
     SS_low_DirectM.R:   run 100 repetitions for Direct method
 
     SamplingM.R:                the function for subsampling method,we can choose true/false model, deterministic/random policy
