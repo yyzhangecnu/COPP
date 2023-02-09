@@ -1,6 +1,6 @@
 # Conformal Off-Policy Prediction
 
-This repository is the official implementation of of "Conformal Off-Policy Prediction".  It includes the toy example 
+This repository is the official implementation of of [Conformal Off-policy Prediction](https://arxiv.org/pdf/2206.06711.pdf).  It includes the toy example 
 in Section 3.2 and the synthetic data analysis in Section 5.
 
 
