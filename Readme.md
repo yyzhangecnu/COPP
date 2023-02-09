@@ -8,7 +8,7 @@ in Section 3.2 and the synthetic data analysis in Section 5.
 The experiments is run in R 4.0.3. It requires R packages "grf", "gbm", "bartMachine","randomForest","glmnet","ggplot2"
 
 ### Training:
-1. Toy example is implemented in the folder `Figure1`: 
+1. Toy example is implemented in the folder [Figure1](https://github.com/callmespring/COPP/tree/main/Figure1): 
     `DirectM.R`:                the function for direct method, we can choose true/false model, deterministic/random policy
     `SS_low_DirectM.R`:   run 100 repetitions for Direct method
 
@@ -23,7 +23,7 @@ The experiments is run in R 4.0.3. It requires R packages "grf", "gbm", "bartMac
 
     All training setups in `SS_low_DirectM.R`,  `SS_low_SamplingM.R`, `SS_low_AOPM.R` are the same with the paper.
 
-2.  Synthetic data analysis is implemented in the folder `Figure2`.
+2.  Synthetic data analysis is implemented in the folder [Figure2](https://github.com/callmespring/COPP/tree/main/Figure2).
 
     `conformal_learners.R`:           prediction models such as quantile random forest        
     `conformal_utils.R`:                 functions for weighted conformal prediction, construct CI
@@ -47,6 +47,6 @@ The experiments is run in R 4.0.3. It requires R packages "grf", "gbm", "bartMac
 
 ### Results：
 All results have been described in our paper. The boxplots in the paper are summarized by the 100 repetitions in the
-`summary.R` in `Figure1` and `summary_high.R`, `summary_low.R` in `Figure2`.
+`summary.R` in [Figure1](https://github.com/callmespring/COPP/tree/main/Figure1) and `summary_high.R`, `summary_low.R` in [Figure2](https://github.com/callmespring/COPP/tree/main/Figure2).
 
 Contact: yyzhang@fem.ecnu.edu.cn
